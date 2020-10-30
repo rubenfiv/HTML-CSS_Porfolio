@@ -1,80 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <link href="indexstyle.css" rel="stylesheet" type="text/css">
 
-    <title>Landing Page</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link href="./assets/styling/indexstyle.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <title>Landing Page</title>
 </head>
 
 <body>
-  <div class="container">
+  <div id="page-container">
+
+  <div class="container" id="pageTop">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="header">
-        <h1>Ruben Flores</h1>
-        </div>
-      </div>  
+      <div class="col-lg-12" id="nameTitle">
+          <h1>Ruben Flores</h1>
+      </div>
     </div>
 
     <!--Start Navbar-->
+    <div class="row">
       <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-  </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </div>
     <!--End Navbar-->
   </div>
 
 
-    <div class="container">
-      <div class="card">
+  <div class="container">
+    <div class="card">
 
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="Title">
-              <h2>About Me</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="https://via.placeholder.com/200" class="img-fluid, BioPic" alt="PlaceHolder">
-          </div>
-
-          <div class="col-sm-6">
-            <div class="Bio">
-            <p>I am a born and raised Texan, born in McAllen and raised in San Antonio. I currently reside in the heart of Texas, Austin. I have over a decade of management experience. I am currently a senior advisor assisting mobile app developers for a major tech company.</p>
-          
-            <p>With proficiencies in full stack development, I can help make your vision a reality or improve a product that you have already deployed.</p>
-            </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="Title">
+            <h2>About Me</h2>
           </div>
         </div>
       </div>
-    </div>  
 
-<footer class="footer">
-  ©Copyright 
-</footer>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="./assets/images/bioPic.png" style="width: 300px; height: 300px; padding-top: 20px;" id="BioPic" alt="Bio Pic">
+        </div>
+
+        <!-- <div class="col-sm-1">
+      </div> -->
+<div class="row">
+  <div class="col-sm-6">
+    <div class="Bio" style="padding-top: 20px;">
+      <p>I am a throughoubred Texan, born in McAllen and raised in San Antonio. I currently reside in the heart
+        of Texas, Austin. I have over a decade of management experience. I am currently a senior advisor assisting
+        mobile app developers for a major tech company.</p>
+        
+        <p>With proficiencies in full stack development, I can help make your vision a reality or improve a product
+          that you have already deployed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- <footer id="footer">©Copyright</footer> -->
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
+
 </html>

@@ -20,11 +20,15 @@ h1 {
 h2{
     color: teal;
 }
+.nav-link{
+    background-color: teal;
+    text-align: center;
+}
+
 
 .navbar{
     width: 100%;
 }
-
  
 .card {
     background-color: white;
@@ -37,29 +41,6 @@ h2{
     border-bottom: 3px solid lightgray;
 }
 
-.BioPic{
-    padding-top: 20px;
-    z-index: 1;
-    align-items: center;
-    width: 100%
-}
-
-#projectcontainer {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.projecttext {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: teal;
-    color: white;
-    width: 100%
-  }
-
 .footer{
     border-top: 6px solid teal;
     background-color: gray;
@@ -67,3 +48,7 @@ h2{
     text-align: center;
     padding: 20px;
 }  
+
+.form{
+    margin: 20px;
+}
